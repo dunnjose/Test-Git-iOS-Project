@@ -9,6 +9,9 @@
 #import "JDViewController.h"
 
 @interface JDViewController ()
+@property (strong, nonatomic) IBOutlet JDView *jdView;
+@property (strong, nonatomic) IBOutlet UILabel *merck;
+
 
 @end
 
@@ -17,7 +20,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+  self.jdView.newmerck = self.merck;
+    
+    }
+
+- (void)viewDidAppear:(BOOL)animated
+{
+ 
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +35,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

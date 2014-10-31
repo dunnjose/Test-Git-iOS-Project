@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JDView.h"
 
 @interface JDViewController : UIViewController
+
 
 @end
