@@ -24,6 +24,14 @@
   self.jdView.newmerck = self.merck;
     
     }
+- (IBAction)changeColor:(UISegmentedControl *)sender {
+    
+    if (sender.selectedSegmentIndex == 0) {
+    self.merck.textColor = [UIColor greenColor];
+    } else {
+        self.merck.textColor = [UIColor blueColor];
+    }
+}
 
 - (void)viewDidAppear:(BOOL)animated
 {

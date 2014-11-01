@@ -80,7 +80,7 @@
     [aSegment stroke];
        
     /* Set the Label on the Story Board */
-    self.newmerck.textColor = [UIColor whiteColor];
+    self.newmerck.textColor = [UIColor greenColor];
     self.newmerck.text = @"Merck";
       
     CGRect newRect = CGRectMake((aSegment.bounds.size.width / 2 -12), aSegment.bounds.size.height / 2 , 48, 30);
