@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B450ADA19FD6F21000D8D2F /* JDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B450AD919FD6F21000D8D2F /* JDTest.m */; };
 		1B450ADD19FE6404000D8D2F /* JDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B450ADC19FE6404000D8D2F /* JDView.m */; };
 		1B657C5F19FD6B7D00FEF372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B657C5E19FD6B7D00FEF372 /* Foundation.framework */; };
 		1B657C6119FD6B7D00FEF372 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B657C6019FD6B7D00FEF372 /* CoreGraphics.framework */; };
@@ -36,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B450AD819FD6F21000D8D2F /* JDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDTest.h; path = ../JDTest.h; sourceTree = "<group>"; };
-		1B450AD919FD6F21000D8D2F /* JDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDTest.m; path = ../JDTest.m; sourceTree = "<group>"; };
 		1B450ADB19FE6404000D8D2F /* JDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDView.h; sourceTree = "<group>"; };
 		1B450ADC19FE6404000D8D2F /* JDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDView.m; sourceTree = "<group>"; };
 		1B657C5B19FD6B7D00FEF372 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,8 +115,6 @@
 		1B657C6419FD6B7D00FEF372 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
-				1B450AD819FD6F21000D8D2F /* JDTest.h */,
-				1B450AD919FD6F21000D8D2F /* JDTest.m */,
 				1B657C7019FD6B7D00FEF372 /* Main.storyboard */,
 				1B657C7319FD6B7D00FEF372 /* JDViewController.h */,
 				1B657C7419FD6B7D00FEF372 /* JDViewController.m */,
@@ -261,7 +256,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B657C6F19FD6B7D00FEF372 /* JDAppDelegate.m in Sources */,
-				1B450ADA19FD6F21000D8D2F /* JDTest.m in Sources */,
 				1B657C7519FD6B7D00FEF372 /* JDViewController.m in Sources */,
 				1B657C6B19FD6B7D00FEF372 /* main.m in Sources */,
 				1B450ADD19FE6404000D8D2F /* JDView.m in Sources */,
